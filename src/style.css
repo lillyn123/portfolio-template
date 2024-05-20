@@ -4,15 +4,22 @@
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 770px) {
+    .col-reverse {
+        flex-direction: column-reverse;
+    }
+}
+
 body {
     margin: 60px auto;
-    max-width: 800px;
+    max-width: 100%;
 }
   
 h1,
 h2,
 h3 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin: 0;
 }
   
